@@ -1,34 +1,34 @@
 programa {
 	funcao inicio() {
 		/*
-      35) Um posto est· vendendo combustÌveis com a seguinte tabela de descontos:
-      ¡lcool: atÈ 20 litros, desconto de 3% por litro ¡lcool: 
-      ¡lcool: acima de 20 litros, desconto de 5% por litro
-      Gasolina: atÈ 20 litros, desconto de 4% por litro Gasolina: 
+      35) Um posto est√° vendendo combust√≠veis com a seguinte tabela de descontos:
+      √Ålcool: at√© 20 litros, desconto de 3% por litro √Ålcool: 
+      √Ålcool: acima de 20 litros, desconto de 5% por litro
+      Gasolina: at√© 20 litros, desconto de 4% por litro Gasolina: 
       Gasolina: acima de 20 litros, desconto de 6% por litro
-      Escreva um algoritmo que leia o n˙mero de litros vendidos e o tipo de combustÌvel (codificado da
-      seguinte forma: A-·lcool, G-gasolina), calcule e imprima o valor a ser pago pelo cliente sabendo-se
-      que o preÁo do litro da gasolina È R$ 3,30 e o preÁo do litro do ·lcool È R$ 2,90. 
+      Escreva um algoritmo que leia o n√∫mero de litros vendidos e o tipo de combust√≠vel (codificado da
+      seguinte forma: A-√°lcool, G-gasolina), calcule e imprima o valor a ser pago pelo cliente sabendo-se
+      que o pre√ßo do litro da gasolina √© R$ 3,30 e o pre√ßo do litro do √°lcool √© R$ 2,90. 
      */
 		real litros,desconto=0,v_pagar=0, gasolina = 3.30 , alcool = 2.90,v_Combustivel,vLitros
 		cadeia combustivel,nome_Combustivel
 		
 		escreva("Escreva a quantidade de litros vendidos: ")
 		leia(litros)
-		escreva("Escreva o tipo de combustÌvel A-¡lcool ou G-Gasolina: : ")
+		escreva("Escreva o tipo de combust√≠vel A-√Ålcool ou G-Gasolina: : ")
 		leia(combustivel)
 		
 		se((combustivel == "A") e (litros <= 20)){
         vLitros = litros * gasolina
 		    desconto = vLitros * 0.03
 		    v_pagar = vLitros - desconto
-        nome_Combustivel="¡lcool"
+        nome_Combustivel="√Ålcool"
         v_Combustivel=2.90
 		}senao se((combustivel == "A") e (litros > 20)){
 		    vLitros = litros * gasolina
 		    desconto = vLitros * 0.05
 		    v_pagar = vLitros - desconto
-        nome_Combustivel="¡lcool"
+        nome_Combustivel="√Ålcool"
         v_Combustivel=2.90
 		}
     senao se((combustivel == "G") e (litros <= 20)){
@@ -46,6 +46,6 @@ programa {
 		}senao{
       escreva("Algo deu errado, por favor, tente de novo")
     }
-				    escreva("VocÍ abasteceu ",litros,"L de ",nome_Combustivel," ",v_Combustivel,"/L\nTeve um desconto de ",desconto," \nValor total È: ",v_pagar)
+      escreva("Voc√™ abasteceu ",litros,"L de ",nome_Combustivel," ",v_Combustivel,"/L\nTeve um desconto de ",desconto," \nValor total √©: ",v_pagar)
 	}
 }
