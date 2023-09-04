@@ -1,6 +1,6 @@
 # Exercicios de Logica
 [q1](https)
-### [Questão 1:A jornada de trabalho semanal de um funcionário é de 40 horas. O funcionário que  trabalhar mais de 40 horas receberá hora extra, cujo cálculo é o valor da hora regular com um acréscimo de 50%. Escreva um algoritmo que leia o número de horas trabalhadas em um mês, o salário por hora e escreva o salário total do funcionário, que deverá ser acrescido das horas extras, caso tenham sido trabalhadas (considere que o mês possua 4 semanas exatas)](https://github.com/GabrielCordeiroBarrosoTeles/Exercicios_de_Logica-/blob/main/q_1.por) 
+### [Questão 1:](https://github.com/GabrielCordeiroBarrosoTeles/Exercicios_de_Logica-/blob/main/q_1.por) A jornada de trabalho semanal de um funcionário é de 40 horas. O funcionário que  trabalhar mais de 40 horas receberá hora extra, cujo cálculo é o valor da hora regular com um acréscimo de 50%. Escreva um algoritmo que leia o número de horas trabalhadas em um mês, o salário por hora e escreva o salário total do funcionário, que deverá ser acrescido das horas extras, caso tenham sido trabalhadas (considere que o mês possua 4 semanas exatas) 
 ### [Questão 2:](https://github.com/GabrielCordeiroBarrosoTeles/Exercicios_de_Logica-/blob/main/q_2.por)  Ler o salário fixo e o valor das vendas efetuadas pelo vendedor de uma empresa. Sabendo-se que ele recebe uma comissão de 3% sobre o total das vendas até R$ 1.500,00 mais 5% sobre o que ultrapassar este valor, calcular e escrever o seu salário total.
 ### [Questão 3:](https://github.com/GabrielCordeiroBarrosoTeles/Exercicios_de_Logica-/blob/main/q_3.por) Faça um algoritmo para ler: número da conta do cliente, saldo, débito e crédito.  Após,calcular e escrever o saldo atual (saldo atual = saldo - débito + crédito). Também testar se saldo atual for maior ou igual a zero escrever a mensagem 'Saldo Positivo', senão escrever a mensagem 'Saldo Negativo'.
 ### [Questão 4:](https://github.com/GabrielCordeiroBarrosoTeles/Exercicios_de_Logica-/blob/main/q_4.por) Faça um algoritmo para ler: quantidade atual em estoque, quantidade máxima em  estoque e quantidade mínima em estoque de um produto. Calcular e escrever a quantidade média ((quantidade média = quantidade máxima + quantidade mínima) / 2). Se a quantidade em estoque for maior ou igual a quantidade média escrever a mensagem 'Não efetuar compra', senão escrever a mensagem 'Efetuar compra'
@@ -10,7 +10,15 @@
 ### [Questão 8:](https://github.com/GabrielCordeiroBarrosoTeles/Exercicios_de_Logica-/blob/main/q_8.por) Uma revendedora de carros usados paga a seus funcionários vendedores um salário fixo por mês, mais uma comissão também fixa para cada carro vendido e mais 5% do valor das vendas por ele efetuadas. Escrever um algoritmo que leia o número de carros por ele vendidos, o valor total de suas vendas, o salário fixo e o valor que ele recebe por carro vendido. Calcule e escreva o salário final do vendedor.
 ### [Questão 9:](https://github.com/GabrielCordeiroBarrosoTeles/Exercicios_de_Logica-/blob/main/q_9.por) Faça um programa que leia tręs números, verifique (usando IF / ELSE) e mostre o maior e o menor deles;
 ### [Questão 10:](https://github.com/GabrielCordeiroBarrosoTeles/Exercicios_de_Logica-/blob/main/q_10.por) 10. Faça um programa para a leitura de duas notas parciais de um aluno.  • A mensagem “Aprovado”, se a média alcançada for maior ou igual a sete; • A mensagem “Aprovado com Distinção”, se a média for igual a dez; • A mensagem “Reprovado” se a média for menor de do que sete;
-### [Questão 11:](https://github.com/GabrielCordeiroBarrosoTeles/Exercicios_de_Logica-/blob/main/q_11.por) 
+### [Questão 11:](https://github.com/GabrielCordeiroBarrosoTeles/Exercicios_de_Logica-/blob/main/q_11.por) 11. As organizações CSM resolveram dar um aumento de salário aos seus colaboradores e lhe contrataram para desenvolver o programa que calculará os reajustes. Faça um programa que recebe o salário de um colaborador e calcule o reajuste segundo o seguinte critério, baseado no salário atual; 
+• Salários até R$ 280,00 (incluindo): aumento de 20%;  
+• Salários entre R$ 280,00 e R$700,00: aumento de 15%; 
+• Salários entre R$ 700,00 e R$ 1500,00: aumento de 10%; 
+• Salários de R$ 1500,00 em diante: aumento de 5% Após o aumento ser realizado; informe na tela;  
+• O salário antes do reajuste;  
+• O percentual de aumento aplicado; 
+• O valor do aumento;  
+• O novo salário, após o aumento.
 ### [Questão 12:](https://github.com/GabrielCordeiroBarrosoTeles/Exercicios_de_Logica-/blob/main/q_12.por) 
 ### [Questão 13:](https://github.com/GabrielCordeiroBarrosoTeles/Exercicios_de_Logica-/blob/main/q_13.por) 
 ### [Questão 14:](https://github.com/GabrielCordeiroBarrosoTeles/Exercicios_de_Logica-/blob/main/q_14.por) 
