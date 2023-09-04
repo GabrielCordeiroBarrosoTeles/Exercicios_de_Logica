@@ -10,15 +10,7 @@
 ### [Questão 8:](https://github.com/GabrielCordeiroBarrosoTeles/Exercicios_de_Logica-/blob/main/q_8.por) Uma revendedora de carros usados paga a seus funcionários vendedores um salário fixo por mês, mais uma comissão também fixa para cada carro vendido e mais 5% do valor das vendas por ele efetuadas. Escrever um algoritmo que leia o número de carros por ele vendidos, o valor total de suas vendas, o salário fixo e o valor que ele recebe por carro vendido. Calcule e escreva o salário final do vendedor.
 ### [Questão 9:](https://github.com/GabrielCordeiroBarrosoTeles/Exercicios_de_Logica-/blob/main/q_9.por) Faça um programa que leia tręs números, verifique (usando IF / ELSE) e mostre o maior e o menor deles;
 ### [Questão 10:](https://github.com/GabrielCordeiroBarrosoTeles/Exercicios_de_Logica-/blob/main/q_10.por) 10. Faça um programa para a leitura de duas notas parciais de um aluno.  • A mensagem “Aprovado”, se a média alcançada for maior ou igual a sete; • A mensagem “Aprovado com Distinção”, se a média for igual a dez; • A mensagem “Reprovado” se a média for menor de do que sete;
-### [Questão 11:](https://github.com/GabrielCordeiroBarrosoTeles/Exercicios_de_Logica-/blob/main/q_11.por) 11. As organizações CSM resolveram dar um aumento de salário aos seus colaboradores e lhe contrataram para desenvolver o programa que calculará os reajustes. Faça um programa que recebe o salário de um colaborador e calcule o reajuste segundo o seguinte critério, baseado no salário atual; 
-• Salários até R$ 280,00 (incluindo): aumento de 20%;  
-• Salários entre R$ 280,00 e R$700,00: aumento de 15%; 
-• Salários entre R$ 700,00 e R$ 1500,00: aumento de 10%; 
-• Salários de R$ 1500,00 em diante: aumento de 5% Após o aumento ser realizado; informe na tela;  
-• O salário antes do reajuste;  
-• O percentual de aumento aplicado; 
-• O valor do aumento;  
-• O novo salário, após o aumento.
+### [Questão 11:](https://github.com/GabrielCordeiroBarrosoTeles/Exercicios_de_Logica-/blob/main/q_11.por) 11. As organizações CSM resolveram dar um aumento de salário aos seus colaboradores e lhe contrataram para desenvolver o programa que calculará os reajustes. Faça um programa que recebe o salário de um colaborador e calcule o reajuste segundo o seguinte critério, baseado no salário atual; • Salários até R$ 280,00 (incluindo): aumento de 20%; • Salários entre R$ 280,00 e R$700,00: aumento de 15%; • Salários entre R$ 700,00 e R$ 1500,00: aumento de 10%; • Salários de R$ 1500,00 em diante: aumento de 5% Após o aumento ser realizado; informe na tela;   • O salário antes do reajuste; • O percentual de aumento aplicado; • O valor do aumento;   • O novo salário, após o aumento.
 ### [Questão 12:](https://github.com/GabrielCordeiroBarrosoTeles/Exercicios_de_Logica-/blob/main/q_12.por) 
 ### [Questão 13:](https://github.com/GabrielCordeiroBarrosoTeles/Exercicios_de_Logica-/blob/main/q_13.por) 
 ### [Questão 14:](https://github.com/GabrielCordeiroBarrosoTeles/Exercicios_de_Logica-/blob/main/q_14.por) 
