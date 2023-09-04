@@ -16,3 +16,4 @@
 ### [Questão 15:](https://github.com/GabrielCordeiroBarrosoTeles/Exercicios_de_Logica/blob/main/q_15.por) Faça um programa que leia 100 valores e no final, escreva o maior e o menor valor lido. 
 ### [Questão 16:](https://github.com/GabrielCordeiroBarrosoTeles/Exercicios_de_Logica/blob/main/q_16.por) Faça um algoritmo para ler uma quantidade e a seguir ler esta quantidade de números. Depois de ler todos os números o algoritmo deve apresentar na tela o maior dos números lidos e a média dos números lidos.
 ### [Questão 17:](https://github.com/GabrielCordeiroBarrosoTeles/Exercicios_de_Logica/blob/main/q_17.por) Faça um algoritmo que calcule e escreva a média aritmética dos números inteiros entre 15 (inclusive) e 100 (inclusive). 
+### [Questão 18:](https://github.com/GabrielCordeiroBarrosoTeles/Exercicios_de_Logica/blob/main/q_18.por) Escreva um algoritmo que imprima a tabuada (de 1 a 10) para os números de 1 a 10.
