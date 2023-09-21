@@ -23,3 +23,4 @@
 ### [Questão 22:](https://github.com/GabrielCordeiroBarrosoTeles/Exercicios_de_Logica/blob/main/q_22.por) Escreva um algoritmo para ler um valor (do teclado) e escrever (na tela) o seu antecessor.
 ### [Questão 23:](https://github.com/GabrielCordeiroBarrosoTeles/Exercicios_de_Logica/blob/main/q_23.por) Escreva um algoritmo para ler as dimensões de um retângulo (base e altura), calcular e escrever a área do retângulo.
 ### [Questão 24:](https://github.com/GabrielCordeiroBarrosoTeles/Exercicios_de_Logica/blob/main/q_24.por) Faça um algoritmo que leia a idade de uma pessoa expressa em anos, meses e dias e escreva a idade dessa pessoa expressa apenas em dias. Considerar ano com 365 dias e mês com 30 dias.
+### [Questão 25:](https://github.com/GabrielCordeiroBarrosoTeles/Exercicios_de_Logica/blob/main/q_25.por) Crie um programa que receberá um número do usuário e, em seguida, deverá imprimir no console todos os números ímpares de um até esse número.
