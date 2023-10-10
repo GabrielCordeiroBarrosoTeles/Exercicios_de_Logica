@@ -1,81 +1,96 @@
-/*
-   12. FaÁa um programa para o c·lculo de uma folha de pagamento, sabendo que os descontos
-    s„o do imposto de Renda, que depende do sal·rio bruto (conforme tabela abaixo) e 3%
-    para o Sindicato e que o FGTS corresponde a 11% do sal·rio bruto, mas n„o È
-    descontado (È a empresa que deposita.)
-    O sal·rio lÌquido corresponde ao sal·rio bruto menos os descontos O programa dever·
-    pedir ao usu·rio o valor da sua hora e a quantidade de horas trabalhadas no mÍs.
-    Tabela do Desconto do IR;
-    ï Sal·rio Bruto atÈ R$900,00 (inclusive) ñ Isento;
-    ï Sal·rio Bruto de R$ 1500, 00 (inclusive) ñ desconto de 5%;
-    ï Sal·rio bruto atÈ R$ 2500,00 (Inclusive) ñ desconto de 10%;
-    ï Sal·rio bruto acima de 2500 ñ Desconto de 20%.
-    Imprima na tela as informaÁıes, dispostas conforme o exemplo abaixo, no exemplo
-    valor da hora È 5 e a quantidade de horas È 220.
-    Sal·rio bruto (5 * 220) : R$ 1100,00
-    ( - ) IR (5%) : R$ 55,00
-    ( - ) INSS ( 10% ) : R$ 110,00
-    FGTS ( 11% ) : R$ 121,00
-    Total de descontos : R$ 165,00
-    Sal·rio LÌquido : R$ 935,00 
-*/
-programa {
-	funcao inicio() {
-		real salarioLiqudo,salarioBruto,vHora,qtdHora,desconto,ir
-
-        escreva("Informe o valor da hora: ")
-        leia(vHora)
-        escreva("Informe qtd da hora trabalhadas: ")
-        leia(qtdHora)
-        
-        salarioBruto = vHora * qtdHora
-        real inss= salarioBruto*0.10
-		real fgts= salarioBruto*0.11 
-        se(salarioBruto<=900.0){
-            desconto=inss
-            salarioLiqudo = salarioBruto-desconto
-            escreva("Sal·rio bruto (",vHora,"*",qtdHora,") : R$ ",salarioBruto,"\n")
-            escreva("( - ) INSS ( 10% ) : R$ ",inss,"\n")
-            escreva("FGTS ( 11% ) : R$ ",fgts,"\n")
-            escreva("Total de descontos : R$ ",desconto,"\n")
-            escreva("Sal·rio LÌquido : R$ ",salarioLiqudo,"\n")
-        
-        }senao se(salarioBruto<=1500.0){
-           ir=salarioBruto*0.05
-            desconto=ir+inss
-            salarioLiqudo = salarioBruto-desconto
-            escreva("Sal·rio bruto (",vHora,"*",qtdHora,") : R$ ",salarioBruto,"\n")
-            escreva("( - ) IR (5%) : R$ ",ir,"\n")
-            escreva("( - ) INSS ( 10% ) : R$ ",inss,"\n")
-            escreva("FGTS ( 11% ) : R$ ",fgts,"\n")
-            escreva("Total de descontos : R$ ",desconto,"\n")
-            escreva("Sal·rio LÌquido : R$ ",salarioLiqudo,"\n")
-        }senao se(salarioBruto<=2500.0){
-            ir=salarioBruto*0.1
-            desconto=ir+inss
-            salarioLiqudo = salarioBruto-desconto
-            escreva("Sal·rio bruto (",vHora,"*",qtdHora,") : R$ ",salarioBruto,"\n")
-            escreva("( - ) IR (10%) : R$ ",ir,"\n")
-            escreva("( - ) INSS ( 10% ) : R$ ",inss,"\n")
-            escreva("FGTS ( 11% ) : R$ ",fgts,"\n")
-            escreva("Total de descontos : R$ ",desconto,"\n")
-            escreva("Sal·rio LÌquido : R$ ",salarioLiqudo,"\n")
-        }senao se(salarioBruto>2500.0){
-          ir=salarioBruto*0.2
-            desconto=ir+inss
-            salarioLiqudo = salarioBruto-desconto
-            escreva("Sal·rio bruto (",vHora,"*",qtdHora,") : R$ ",salarioBruto,"\n")
-            escreva("( - ) IR (20%) : R$ ",ir,"\n")
-            escreva("( - ) INSS ( 10% ) : R$ ",inss,"\n")
-            escreva("FGTS ( 11% ) : R$ ",fgts,"\n")
-            escreva("Total de descontos : R$ ",desconto,"\n")
-            escreva("Sal·rio LÌquido : R$ ",salarioLiqudo,"\n")
-        
-        }senao{
-	        escreva("Acho que voce informou algo de errado por favor tente denovo")
-        }
-	}
-}
+REPORT ZPROG_EX12_05.
+*12. Fa√ßa um programa para o c√°lculo de uma folha de pagamento, sabendo que os descontos
+*s√£o do imposto de Renda, que depende do sal√°rio bruto (conforme tabela abaixo) e 3%
+*para o Sindicato e que o FGTS corresponde a 11% do sal√°rio bruto, mas n√£o √©
+*descontado (√© a empresa que deposita.)
+*O sal√°rio l√≠quido corresponde ao sal√°rio bruto menos os descontos O programa dever√°
+*pedir ao usu√°rio o valor da sua hora e a quantidade de horas trabalhadas no m√™s.
+*Tabela do Desconto do IR;
+*‚Ä¢ Sal√°rio Bruto at√© R$900,00 (inclusive) ‚Äì Isento;
+*‚Ä¢ Sal√°rio Bruto de R$ 1500, 00 (inclusive) ‚Äì desconto de 5%;
+*‚Ä¢ Sal√°rio bruto at√© R$ 2500,00 (Inclusive) ‚Äì desconto de 10%;
+*‚Ä¢ Sal√°rio bruto acima de 2500 ‚Äì Desconto de 20%.
+*Imprima na tela as informa√ß√µes, dispostas conforme o exemplo abaixo, no exemplo
+*valor da hora √© 5 e a quantidade de horas √© 220.
+*Sal√°rio bruto (5 * 220) : R$ 1100,00
+*( - ) IR (5%) : R$ 55,00
+*( - ) INSS ( 10% ) : R$ 110,00
+*FGTS ( 11% ) : R$ 121,00
+*Total de descontos : R$ 165,00
+*Sal√°rio L√≠quido : R$ 935,00
 
 
+SELECTION-SCREEN BEGIN OF BLOCK b1 WITH FRAME TITLE TEXT-001.
+  PARAMETERS: v_hora TYPE p DECIMALS 1,
+              qtd_hora TYPE p DECIMALS 1.
 
+SELECTION-SCREEN END OF BLOCK b1.
+DATA: sal_brut TYPE p DECIMALS 1,
+      sal_liq TYPE p DECIMALS 1,
+      descon TYPE p DECIMALS 1,
+      porc TYPE p DECIMALS 1,
+      ir TYPE p DECIMALS 1,
+      inss TYPE p DECIMALS 1,
+      fgts TYPE p DECIMALS 1.
+sal_brut = v_hora * qtd_hora.
+
+IF sal_brut <= 900.
+  porc = '0'.
+  ir = sal_brut * '0.05'.
+  inss = sal_brut * '0.1'.
+  fgts  = sal_brut * '0.11'.
+  descon = inss.
+  sal_liq = sal_brut - descon.
+  
+  WRITE: 'Sal√°rio bruto(',v_hora,'*', qtd_hora ,'): R$', sal_brut,
+       / '( - ) IR ( 5%): R$', ir,
+       / '( - ) INSS ( 10% ) :R$', inss,
+       / '( - ) FGTS ( 11% ) :R$', fgts,
+       / 'Total de descontos : R$', descon,
+       / 'Sal√°rio L√≠quido : R$', sal_liq.
+
+ELSEIF sal_brut <= 1500.
+  porc = '0.05'.
+  ir = sal_brut * '0.05'.
+  inss = sal_brut * '0.1'.
+  fgts  = sal_brut * '0.11'.
+  descon = ir + inss.
+  sal_liq = sal_brut - descon.
+
+  WRITE: 'Sal√°rio bruto(',v_hora,'*', qtd_hora ,'): R$', sal_brut,
+       / '( - ) IR ( 5%): R$', ir,
+       / '( - ) INSS ( 10% ) :R$', inss,
+       / '( - ) FGTS ( 11% ) :R$', fgts,
+       / 'Total de descontos : R$', descon,
+       / 'Sal√°rio L√≠quido : R$', sal_liq.
+
+ELSEIF sal_brut <= 2500.
+  porc = '0,1'.
+  ir = sal_brut * '0.05'.
+  inss = sal_brut * '0.1'.
+  fgts  = sal_brut * '0.11'.
+  descon = ir + inss.
+  sal_liq = sal_brut - descon.
+
+  WRITE: 'Sal√°rio bruto(',v_hora,'*', qtd_hora ,'): R$', sal_brut,
+       / '( - ) IR ( 5%): R$', ir,
+       / '( - ) INSS ( 10% ) :R$', inss,
+       / '( - ) FGTS ( 11% ) :R$', fgts,
+       / 'Total de descontos : R$', descon,
+       / 'Sal√°rio L√≠quido : R$', sal_liq.
+
+ ELSEIF sal_brut > 2500.
+  porc = '0,2'.
+  ir = sal_brut * '0.05'.
+  inss = sal_brut * '0.1'.
+  fgts  = sal_brut * '0.11'.
+   descon = ir + inss.
+  sal_liq = sal_brut - descon.
+
+  WRITE: 'Sal√°rio bruto(',v_hora,'*', qtd_hora ,'): R$', sal_brut,
+       / '( - ) IR ( 5%): R$', ir,
+       / '( - ) INSS ( 10% ) :R$', inss,
+       / '( - ) FGTS ( 11% ) :R$', fgts,
+       / 'Total de descontos : R$', descon,
+       / 'Sal√°rio L√≠quido : R$', sal_liq.
+ENDIF.
